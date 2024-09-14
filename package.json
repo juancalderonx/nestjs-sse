@@ -66,5 +66,18 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "overrides": {
+    "@nestjs/platform-express": {
+      "body-parser": "1.20.3",
+      "express": "4.21.0",
+      "path-to-regexp": "^3.3.0"
+    },
+    "@nestjs/core": {
+      "path-to-regexp": "^3.3.0"
+    },
+    "@nestjs/swagger": {
+      "path-to-regexp": "^3.3.0"
+    }
   }
 }
